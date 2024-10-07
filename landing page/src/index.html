@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Sevillana&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sevillana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .small-icon {
+        width: 150px;
+        height: 150px;
+    }
+</style>
+</head>
+<body class="font-lora">
+ <!---Navbar-->
+   <div class="container mx-auto bg-slate-300">
+    <nav class="flex justify-between items-center">
+        <div class="h-16 w-16">
+            <a href="#"><img class= "rounded-full" src="https://picsum.photos/200?grayscale"></a>
+        </div>
+        <ul class="flex space-x-6">
+            <li><a class="text-blue-600 font-medium hover:text-red-600"    href="#">Services</a></li>
+            <li><a class="text-blue-600 font-medium  hover:text-red-600"  href="#">Pricing</a></li>
+            <li><a class="text-blue-600  font-medium hover:text-red-600" href="#">About</a></li>
+            <li><a class="text-blue-600 font-medium hover:text-red-600" href="#">Contacts</a></li>
+        </ul>
+        <button class="bg-green-500 px-6 py-2 rounded-full text-white hover:bg-blue-600 medium">Signup</button>
+    </nav>
+   </div>
+   <!--Hero Section-->
+   <div class="container mx-auto mt-12 flex">
+    <div class="w-1/2 text-center">
+        <p class="mt-6 font-sevi"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam dolores velit, et animi est nam voluptatum ab libero qui magnam temporibus enim, asperiores, dolorem vero exercitationem perspiciatis quidem reiciendis.</p>
+        <button class="bg-blue-500 rounded-full px-6 py-2 mt-6 text-white font-medium"> Get Started </button>
+    </div>
+    <div class="w-1/2">
+         <img class="mx-auto"        src="./assets/hero.png">
+    </div>
+   </div>
+
+  <!----- HERO SECTION-->
+
+  <div class="container mx-auto flex mt-12">
+    <div class='w-1/3 text-center flex flex-col items-center' >
+        <h1 class="text-2xl font-sevi">Web Development</h1>
+        <img class="small-icon"    src="./assets/webiste.svg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem possimus ea, dolor harum </p>
+    </div>
+    <div class='w-1/3 text-center flex flex-col items-center'>
+        <h1 class="text-2xl font-bebas">App Development</h1>
+        <img class="small-icon"  src="./assets/app.svg" alt="app">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elita cum exercitationem.</p>
+    </div>
+    <div class='w-1/3 text-center flex flex-col items-center'>
+        <h1 class="text-2xl">Design Development</h1>
+        <img  class="small-icon"   src="./assets/designer.svg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. rcitationem.</p>
+    </div>
+  </div>
+
+  <!----Pricing section-->
+  <div class="container mx-auto mt-6">
+    <div class="text-center">
+        <h1 class="font-sevi text-green-500 text-3xl">Pricing</h1>
+        <p class="text-2xl">Offers Multiple Packages for monthly and yearly subscription</p>
+        <p class="2xl">Featured Plans are here</p>
+    </div>
+    <div class="grid grid-cols-3 gap-4">
+        <div class="bg-gray-300  w-80 rounded-2xl hover:shadow-2xl text-center">
+            <h1 class="text-5xl font-semibold">$99</h1>    
+            <h2 class="text-green-500 mb-3">Basic</h2>
+                <p>All the Basic Features or included</p>
+                <ul class="ml-4">
+                   <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa-solid fa-circle-minus"></i></div>
+                        <div class="ml-2">Customized Features</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">DualInformation</div>
+                    </li> 
+                </ul>
+        </div >
+        <div class="bg-gray-300 w-80 rounded-2xl hover:shadow-2xl text-center">
+            <h1 class="text-5xl font-semibold">$199</h1>    
+            <h2 class="text-green-500 mb-3">Basic</h2>
+                <p>All the Basic Features or included</p>
+                <ul class="ml-4">
+                   <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa-solid fa-circle-minus"></i></div>
+                        <div class="ml-2">Customized Features</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">DualInformation</div>
+                    </li> 
+                </ul>
+        </div>
+        <div class="bg-gray-300  w-80 rounded-2xl hover:shadow-2xl text-center border border-8 border-indigo-500 border-dashed">
+            <h1 class="text-5xl font-semibold">$299</h1>    
+            <h2 class="text-green-500 mb-3">Basic</h2>
+                <p>All the Basic Features or included</p>
+                <ul class="ml-4">
+                   <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">Core Bussiness System</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa-solid fa-circle-minus"></i></div>
+                        <div class="ml-2">Customized Features</div>
+                    </li> 
+                    <li class="flex items-center mt-4 ml-3">
+                        <div><i class="fa fa-check"></i></div>
+                        <div class="ml-2">DualInformation</div>
+                    </li> 
+                </ul>
+        </div>
+    </div>
+  </div>
+  <!-- //<p class="font-bebas">FOOTER</p> -->
+</body>
+</html>
